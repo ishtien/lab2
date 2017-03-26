@@ -1,4 +1,9 @@
-all:main.o
-	g++ -o main main.o
-main.o:main.cpp
+main: fileclass.o main.o
+	g++ -o fileclass main.o fileclass.o
+
+fileclass.o: fileclass.cpp fileclass.h
+	g++ -c fileclass.cpp
+
+main.o: main.cpp fileclass.h
 	g++ -c main.cpp
+

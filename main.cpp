@@ -5,7 +5,7 @@
 #include<cstdlib>
 #include<cmath>
 using namespace std;
-class fileclass{
+/*class fileclass{
 public:
 	int calR(float S,float E){
 		int r;
@@ -29,6 +29,7 @@ public:
 private:
 	float K,R;
 };
+*/
 #endif
 int main(){
 	cout.unsetf(ios::scientific);

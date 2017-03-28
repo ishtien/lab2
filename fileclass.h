@@ -1,4 +1,4 @@
-/*class fileclass{
+class fileclass{
 public:
 	int calR(int S,int E){
 	}
@@ -13,4 +13,4 @@ public:
 private:
 	int K,R;
 };
-*/
+
